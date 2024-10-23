@@ -1,0 +1,11 @@
+.bottle-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    
+}
+
+@media screen and  (max-width: 700px) {
+    .bottle-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
